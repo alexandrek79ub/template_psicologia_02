@@ -114,13 +114,5 @@
       "answer": "O atendimento online tem a mesma qualidade e eficácia do presencial. Utilizamos plataformas seguras com criptografia para garantir total sigilo e privacidade."
     }
   ],
-  "pages": [
-    {
-      "slug": "politica-de-atendimento",
-      "title": "Política de Atendimento",
-      "content": "Nossa política de atendimento é baseada no respeito, ética e sigilo profissional. Todos os atendimentos seguem o Código de Ética Profissional do Psicólogo (Resolução CFP 010/2005). O sigilo é absoluto e garantido por lei. Remarcações devem ser feitas com 24h de antecedência. Valores e formas de pagamento são combinados na primeira sessão.",
-      "image": "/images/politica.jpg",
-      "sections": []
-    }
-  ]
+  "pages": []
 }
