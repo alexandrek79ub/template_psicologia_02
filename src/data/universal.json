@@ -1,15 +1,15 @@
 {
   "site": {
-    "name": "",
-    "tagline": "",
-    "description": "",
-    "phone": "",
-    "email": "",
-    "whatsapp": "",
-    "address": "",
+    "name": "Dra. Ana Carolina Silva",
+    "tagline": "Psicologia Feminina | Acolhimento e Transformação",
+    "description": "Espaço seguro e acolhedor para mulheres que buscam autoconhecimento, equilíbrio emocional e bem-estar",
+    "phone": "+55 11 99999-9999",
+    "email": "contato@psicologiafeminina.com.br",
+    "whatsapp": "5511999999999",
+    "address": "Av. Paulista, 1000 - São Paulo, SP",
     "social": {
-      "instagram": "",
-      "facebook": ""
+      "instagram": "https://instagram.com/psicologiafeminina",
+      "facebook": "https://facebook.com/psicologiafeminina"
     },
     "theme": {
       "mode": "light",
@@ -22,111 +22,93 @@
       "textDark": "#fafafa"
     },
     "contact": {
-      "whatsapp": "5511999999900",
+      "whatsapp": "5511999999999",
       "email": "contato@psicologiafeminina.com.br",
-      "phone": "+55 11 99999-9900",
-      "address": "Av. Paulista, 1010 - São Paulo, SP"
+      "phone": "+55 11 99999-9999",
+      "address": "Av. Paulista, 1000 - São Paulo, SP"
     },
     "marketing": {
       "trackingCode": ""
     }
   },
   "branding": {
-    "logo": "",
-    "title": "Mente Serena",
-    "description": "Clínica de psicologia com atendimento humanizado e resultados mensuráveis.",
-    "favicon": "",
+    "logo": "/images/psicologia-logo.svg",
+    "title": "Dra. Ana Carolina",
+    "description": "Psicologia Feminina com acolhimento, empatia e transformação genuína.",
+    "favicon": "/images/psicologia-favicon.svg",
     "menu": [
-      {
-        "label": "Início",
-        "url": "/"
-      },
-      {
-        "label": "Sobre",
-        "url": "/sobre"
-      }
+      { "label": "Início", "url": "#inicio" },
+      { "label": "Benefícios", "url": "#beneficios" },
+      { "label": "Serviços", "url": "#servicos" },
+      { "label": "Sobre", "url": "#sobre" },
+      { "label": "Depoimentos", "url": "#depoimentos" }
     ]
   },
   "hero": {
-    "title": "Você merece um espaço seguro para ser",
+    "title": "Você merece um espaço seguro para ser quem você é",
     "subtitle": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilíbrio emocional e transformação genuína",
-    "buttonLabel": "",
-    "secondaryButtonLabel": "",
     "cta": "Agendar Sessão",
-    "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/hero-psicologa.jpg",
-    "badge": ""
+    "image": "/images/hero-psicologa.jpg",
+    "badge": "Psicologia Integrada"
   },
   "benefits": [
-    {
-      "icon": "Heart",
-      "title": "Acolhimento Genuíno",
-      "description": "Um espaço seguro onde você pode ser autêntica, sem julgamentos, com respeito e empatia"
-    },
-    {
-      "icon": "Sparkles",
-      "title": "Abordagem Feminina",
-      "description": "Terapia que compreende as questões únicas da mulher moderna, suas dores e suas potências"
-    },
-    {
-      "icon": "Shield",
-      "title": "Sigilo Absoluto",
-      "description": "Confidencialidade total em todos os atendimentos, presenciais ou online"
-    },
-    {
-      "icon": "Calendar",
-      "title": "Horários Flexíveis",
-      "description": "Atendimento adaptado à sua rotina, com agendamento facilitado e sessões online"
-    }
+    { "icon": "Heart", "title": "Acolhimento Genuíno", "description": "Um espaço seguro onde você pode ser autêntica, sem julgamentos, com respeito e empatia" },
+    { "icon": "Sparkles", "title": "Abordagem Feminina", "description": "Terapia que compreende as questões únicas da mulher moderna, suas dores e suas potências" },
+    { "icon": "Shield", "title": "Sigilo Absoluto", "description": "Confidencialidade total em todos os atendimentos, presenciais ou online" },
+    { "icon": "Calendar", "title": "Horários Flexíveis", "description": "Atendimento adaptado à sua rotina, com agendamento facilitado e sessões online" }
   ],
   "services": [
     {
       "title": "Terapia Individual",
-      "description": "Atendimento personalizado focado em suas necessidades, objetivos e momento de vida atual.",
-      "topics": [
-        "Ansiedade e estresse",
-        "Autoestima e autoconfiança",
-        "Relacionamentos",
-        "Transições de vida"
-      ]
+      "description": "Atendimento personalizado focado em suas necessidades, objetivos e momento de vida atual",
+      "topics": ["Ansiedade e estresse", "Autoestima e autoconfiança", "Relacionamentos", "Transições de vida"]
     },
     {
       "title": "Terapia Online",
-      "description": "Sessões por videochamada com a mesma qualidade do atendimento presencial, no conforto da sua casa.",
-      "topics": [
-        "Praticidade",
-        "Mesma eficácia",
-        "Horários flexíveis",
-        "Sigilo garantido"
-      ]
+      "description": "Sessões por videochamada com a mesma qualidade do atendimento presencial, no conforto da sua casa",
+      "topics": ["Praticidade", "Mesma eficácia", "Horários flexíveis", "Sigilo garantido"]
     },
     {
       "title": "Abordagem Integrativa",
-      "description": "Combinação de técnicas da psicologia moderna para resultados mais profundos e duradouros.",
-      "topics": [
-        "Terapia Cognitivo-Comportamental",
-        "Psicanálise",
-        "Gestalt",
-        "Mindfulness"
-      ]
+      "description": "Combinação de técnicas da psicologia moderna para resultados mais profundos e duradouros",
+      "topics": ["TCC", "Psicanálise", "Gestalt", "Mindfulness"]
     }
   ],
+  "about": {
+    "name": "Dra. Ana Carolina Silva",
+    "title": "Psicóloga Clínica CRP 06/123456",
+    "description": "Psicóloga formada pela Universidade de São Paulo (USP), com especialização em Psicologia Feminina e Terapia Cognitivo-Comportamental. Há mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformação.",
+    "highlights": [
+      "Formação em Psicologia pela USP",
+      "Especialização em Psicologia Feminina",
+      "Pós-graduação em Terapia Cognitivo-Comportamental",
+      "Mais de 8 anos de experiência clínica",
+      "Atendimento humanizado e acolhedor"
+    ],
+    "image": "/images/psicologa-foto.jpg"
+  },
   "testimonials": [
     {
       "name": "Mariana S.",
       "text": "A terapia com a Dra. Ana mudou minha vida. Pela primeira vez me senti verdadeiramente ouvida e acolhida. Hoje me conheço melhor e vivo com mais leveza.",
-      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/testimonial-1.jpg"
+      "image": "/images/testimonial-1.jpg"
     },
     {
       "name": "Juliana P.",
       "text": "Encontrei na terapia um espaço seguro para trabalhar questões que carregava há anos. O atendimento é delicado, profundo e transformador.",
-      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/testimonial-2.jpg"
+      "image": "/images/testimonial-2.jpg"
     },
     {
       "name": "Carolina M.",
       "text": "A abordagem feminina e acolhedora fez toda diferença. Me sinto mais confiante, mais eu mesma. Gratidão por esse processo!",
-      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/testimonial-3.jpg"
+      "image": "/images/testimonial-3.jpg"
     }
   ],
+  "cta": {
+    "title": "Pronta para iniciar sua jornada de autoconhecimento?",
+    "subtitle": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar",
+    "buttonText": "Agendar Sessão"
+  },
   "faq": [
     {
       "question": "Como funciona a primeira sessão?",
@@ -149,194 +131,24 @@
       "answer": "O atendimento online tem a mesma qualidade e eficácia do presencial. Utilizamos plataformas seguras com criptografia para garantir total sigilo e privacidade."
     }
   ],
-  "about": {
-    "name": "Dra. Ana Carolina Silva",
-    "title": "Psicóloga Clínica CRP 06/123456",
-    "description": "Psicóloga formada pela Universidade de São Paulo (USP), especializada em Psicologia Feminina e Terapia Cognitivo-Comportamental. Mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformação.",
-    "highlights": [
-      "Formação em Psicologia pela USP",
-      "Especialização em Psicologia Feminina",
-      "Pós-graduação em Terapia Cognitivo-Comportamental",
-      "Mais de 8 anos de experiência clínica",
-      "Atendimento humanizado e acolhedor"
-    ],
-    "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/psicologa-foto.jpg"
-  },
-  "cta": {
-    "title": "Pronta para iniciar sua jornada de autoconhecimento?",
-    "subtitle": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar.",
-    "buttonText": "Agendar sessão"
-  },
-  "professionalInfo": {
-    "license": "",
-    "experience": "",
-    "serviceTypes": "",
-    "extraNotes": ""
-  },
-  "pages": [
-    {
-      "slug": "sobre",
-      "title": "Sobre",
-      "content": "Meu objetivo é criar um espaço onde você se sinta acolhida para explorar suas emoções, reconhecer suas potências e construir uma vida com mais leveza e autenticidade.",
-      "image": "",
-      "sections": []
-    },
-    {
-      "slug": "cta",
-      "title": "Agende sua sessão",
-      "content": "",
-      "image": "",
-      "sections": [
-        {
-          "title": "Agende sua sessão",
-          "content": ""
-        }
-      ]
-    },
-    {
-      "slug": "beneficios",
-      "title": "Por que escolher este espaço?",
-      "content": "Um ambiente seguro, acolhedor e profissional para sua jornada de autoconhecimento.",
-      "image": "",
-      "sections": [
-        {
-          "title": "Acolhimento Genuíno",
-          "content": "Um espaço seguro onde você pode ser autêntica, sem julgamentos, com respeito e empatia"
-        },
-        {
-          "title": "Abordagem Feminina",
-          "content": "Terapia que compreende as questões únicas da mulher moderna, suas dores e suas potências"
-        },
-        {
-          "title": "Sigilo Absoluto",
-          "content": "Confidencialidade total em todos os atendimentos, presenciais ou online"
-        },
-        {
-          "title": "Horários Flexíveis",
-          "content": "Atendimento adaptado à sua rotina, com agendamento facilitado e sessões online"
-        }
-      ]
-    },
-    {
-      "slug": "servicos",
-      "title": "Como posso te ajudar?",
-      "content": "Abordagens personalizadas para suas necessidades únicas.",
-      "image": "",
-      "sections": [
-        {
-          "title": "Terapia Individual",
-          "content": "Atendimento personalizado focado em suas necessidades, objetivos e momento de vida atual\nAnsiedade e estresse • Autoestima e autoconfiança • Relacionamentos • Transições de vida"
-        },
-        {
-          "title": "Terapia Online",
-          "content": "Sessões por videochamada com a mesma qualidade do atendimento presencial, no conforto da sua casa\nPraticidade • Mesma eficácia • Horários flexíveis • Sigilo garantido"
-        },
-        {
-          "title": "Abordagem Integrativa",
-          "content": "Combinação de técnicas da psicologia moderna para resultados mais profundos e duradouros\nTCC • Psicanálise • Gestalt • Mindfulness"
-        }
-      ]
-    },
-    {
-      "slug": "sobre",
-      "title": "Dra. Ana Carolina Silva",
-      "content": "Psicóloga Clínica CRP 06/123456\nPsicóloga formada pela Universidade de São Paulo (USP), com especialização em Psicologia Feminina e Terapia Cognitivo-Comportamental. Há mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformação.\n• Formação em Psicologia pela USP\n• Especialização em Psicologia Feminina\n• Pós-graduação em Terapia Cognitivo-Comportamental\n• Mais de 8 anos de experiência clínica\n• Atendimento humanizado e acolhedor\nMeu objetivo é criar um espaço onde você se sinta acolhida para explorar suas emoções, reconhecer suas potências e construir uma vida com mais leveza e autenticidade.",
-      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/psicologa-foto.jpg",
-      "sections": []
-    },
-    {
-      "slug": "depoimentos",
-      "title": "Histórias de Transformação",
-      "content": "O que outras mulheres dizem sobre sua experiência",
-      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/testimonial-1.jpg",
-      "sections": [
-        {
-          "title": "Mariana S.",
-          "content": "A terapia com a Dra. Ana mudou minha vida. Pela primeira vez me senti verdadeiramente ouvida e acolhida. Hoje me conheço melhor e vivo com mais leveza.",
-          "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/testimonial-1.jpg"
-        },
-        {
-          "title": "Juliana P.",
-          "content": "Encontrei na terapia um espaço seguro para trabalhar questões que carregava há anos. O atendimento é delicado, profundo e transformador.",
-          "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/testimonial-2.jpg"
-        },
-        {
-          "title": "Carolina M.",
-          "content": "A abordagem feminina e acolhedora fez toda diferença. Me sinto mais confiante, mais eu mesma. Gratidão por esse processo!",
-          "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/images/testimonial-3.jpg"
-        }
-      ]
-    },
-    {
-      "slug": "faq",
-      "title": "Perguntas frequentes",
-      "content": "Dúvidas respondidas sobre atendimentos.",
-      "image": "",
-      "sections": [
-        {
-          "title": "Como funciona a primeira sessão?",
-          "content": "A primeira sessão é um momento de acolhimento e conhecimento mútuo. Vamos conversar sobre o que te trouxe até aqui, suas expectativas e como posso te ajudar. É um espaço sem julgamentos para você se sentir à vontade."
-        },
-        {
-          "title": "Qual a frequência ideal das sessões?",
-          "content": "Geralmente recomendo sessões semanais, mas a frequência pode ser ajustada de acordo com suas necessidades e disponibilidade. O importante é manter a constância para um processo terapêutico efetivo."
-        },
-        {
-          "title": "Quanto tempo dura cada sessão?",
-          "content": "Cada sessão tem duração de 50 minutos, tempo adequado para um trabalho terapêutico profundo e acolhedor."
-        },
-        {
-          "title": "Atende por convênio?",
-          "content": "Trabalho como profissional particular, mas forneço recibos que podem ser utilizados para reembolso em alguns convênios. Consulte seu plano de saúde."
-        },
-        {
-          "title": "Como é o atendimento online?",
-          "content": "O atendimento online tem a mesma qualidade e eficácia do presencial. Utilizamos plataformas seguras com criptografia para garantir total sigilo e privacidade."
-        }
-      ]
-    },
-    {
-      "slug": "cta",
-      "title": "Pronta para iniciar sua jornada de autoconhecimento?",
-      "content": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar",
-      "image": "",
-      "sections": [
-        {
-          "title": "Pronta para iniciar sua jornada de autoconhecimento?",
-          "content": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar"
-        }
-      ]
-    },
-    {
-      "slug": "contato",
-      "title": "Contato",
-      "content": "E-mail: contato@psicologiafeminina.com.br • Telefone: +55 11 99999-9999 • WhatsApp: 5511999999999 • Endereço: Av. Paulista, 1000 - São Paulo, SP",
-      "image": "",
-      "sections": [
-        {
-          "title": "E-mail",
-          "content": "contato@psicologiafeminina.com.br"
-        },
-        {
-          "title": "Telefone",
-          "content": "+55 11 99999-9999"
-        },
-        {
-          "title": "WhatsApp",
-          "content": "5511999999999"
-        },
-        {
-          "title": "Endereço",
-          "content": "Av. Paulista, 1000 - São Paulo, SP"
-        }
-      ]
-    }
-  ],
+  "pages": [],
   "avisos": [],
   "blog": [],
   "footer": {
-    "copyright": "© 2024 Clínica de Psicologia",
-    "links": []
+    "copyright": "© 2024 Dra. Ana Carolina Silva - Todos os direitos reservados",
+    "links": [
+      { "label": "Início", "url": "#inicio" },
+      { "label": "Benefícios", "url": "#beneficios" },
+      { "label": "Serviços", "url": "#servicos" },
+      { "label": "Sobre", "url": "#sobre" },
+      { "label": "Depoimentos", "url": "#depoimentos" }
+    ]
+  },
+  "professionalInfo": {
+    "license": "CRP 06/123456",
+    "experience": "Mais de 8 anos de experiência clínica",
+    "serviceTypes": "Presencial e online",
+    "extraNotes": ""
   },
   "features": {
     "blog": false,
