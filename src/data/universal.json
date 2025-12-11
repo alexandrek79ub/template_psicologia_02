@@ -22,10 +22,10 @@
       "textDark": "#fafafa"
     },
     "contact": {
-      "whatsapp": "5511999999901",
+      "whatsapp": "5511999999999",
       "email": "contato@psicologiafeminina.com.br",
-      "phone": "+55 11 99999-9900",
-      "address": "Av. Paulista, 1010 - São Paulo, SP"
+      "phone": "+55 11 99999-9999",
+      "address": "Av. Paulista, 1000 - São Paulo, SP"
     },
     "marketing": {
       "trackingCode": ""
@@ -37,91 +37,56 @@
     "description": "Psicologia Feminina com acolhimento, empatia e transformação genuína.",
     "favicon": "/images/psicologia-favicon.svg",
     "menu": [
-      {
-        "label": "Início",
-        "url": "#inicio"
-      },
-      {
-        "label": "Benefícios",
-        "url": "#beneficios"
-      },
-      {
-        "label": "Serviços",
-        "url": "#servicos"
-      },
-      {
-        "label": "Sobre",
-        "url": "#sobre"
-      },
-      {
-        "label": "Depoimentos",
-        "url": "#depoimentos"
-      }
+      { "label": "Início", "url": "#inicio" },
+      { "label": "Benefícios", "url": "#beneficios" },
+      { "label": "Serviços", "url": "#servicos" },
+      { "label": "Sobre", "url": "#sobre" },
+      { "label": "Depoimentos", "url": "#depoimentos" }
     ]
   },
   "hero": {
     "title": "Você merece um espaço seguro para ser quem você é",
     "subtitle": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilíbrio emocional e transformação genuína",
-    "buttonLabel": "",
-    "secondaryButtonLabel": "",
     "cta": "Agendar Sessão",
     "image": "/images/hero-psicologa.jpg",
     "badge": "Psicologia Integrada"
   },
   "benefits": [
-    {
-      "icon": "Heart",
-      "title": "Acolhimento Genuíno",
-      "description": "Um espaço seguro onde você pode ser autêntica, sem julgamentos, com respeito e empatia"
-    },
-    {
-      "icon": "Sparkles",
-      "title": "Abordagem Feminina",
-      "description": "Terapia que compreende as questões únicas da mulher moderna, suas dores e suas potências"
-    },
-    {
-      "icon": "Shield",
-      "title": "Sigilo Absoluto",
-      "description": "Confidencialidade total em todos os atendimentos, presenciais ou online"
-    },
-    {
-      "icon": "Calendar",
-      "title": "Horários Flexíveis",
-      "description": "Atendimento adaptado à sua rotina, com agendamento facilitado e sessões online"
-    }
+    { "icon": "Heart", "title": "Acolhimento Genuíno", "description": "Um espaço seguro onde você pode ser autêntica, sem julgamentos, com respeito e empatia" },
+    { "icon": "Sparkles", "title": "Abordagem Feminina", "description": "Terapia que compreende as questões únicas da mulher moderna, suas dores e suas potências" },
+    { "icon": "Shield", "title": "Sigilo Absoluto", "description": "Confidencialidade total em todos os atendimentos, presenciais ou online" },
+    { "icon": "Calendar", "title": "Horários Flexíveis", "description": "Atendimento adaptado à sua rotina, com agendamento facilitado e sessões online" }
   ],
   "services": [
     {
       "title": "Terapia Individual",
       "description": "Atendimento personalizado focado em suas necessidades, objetivos e momento de vida atual",
-      "topics": [
-        "Ansiedade e estresse",
-        "Autoestima e autoconfiança",
-        "Relacionamentos",
-        "Transições de vida"
-      ]
+      "topics": ["Ansiedade e estresse", "Autoestima e autoconfiança", "Relacionamentos", "Transições de vida"]
     },
     {
       "title": "Terapia Online",
       "description": "Sessões por videochamada com a mesma qualidade do atendimento presencial, no conforto da sua casa",
-      "topics": [
-        "Praticidade",
-        "Mesma eficácia",
-        "Horários flexíveis",
-        "Sigilo garantido"
-      ]
+      "topics": ["Praticidade", "Mesma eficácia", "Horários flexíveis", "Sigilo garantido"]
     },
     {
       "title": "Abordagem Integrativa",
       "description": "Combinação de técnicas da psicologia moderna para resultados mais profundos e duradouros",
-      "topics": [
-        "TCC",
-        "Psicanálise",
-        "Gestalt",
-        "Mindfulness"
-      ]
+      "topics": ["TCC", "Psicanálise", "Gestalt", "Mindfulness"]
     }
   ],
+  "about": {
+    "name": "Dra. Ana Carolina Silva",
+    "title": "Psicóloga Clínica CRP 06/123456",
+    "description": "Psicóloga formada pela Universidade de São Paulo (USP), com especialização em Psicologia Feminina e Terapia Cognitivo-Comportamental. Há mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformação.",
+    "highlights": [
+      "Formação em Psicologia pela USP",
+      "Especialização em Psicologia Feminina",
+      "Pós-graduação em Terapia Cognitivo-Comportamental",
+      "Mais de 8 anos de experiência clínica",
+      "Atendimento humanizado e acolhedor"
+    ],
+    "image": "/images/psicologa-foto.jpg"
+  },
   "testimonials": [
     {
       "name": "Mariana S.",
@@ -139,6 +104,11 @@
       "image": "/images/testimonial-3.jpg"
     }
   ],
+  "cta": {
+    "title": "Pronta para iniciar sua jornada de autoconhecimento?",
+    "subtitle": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar",
+    "buttonText": "Agendar Sessão"
+  },
   "faq": [
     {
       "question": "Como funciona a primeira sessão?",
@@ -161,110 +131,24 @@
       "answer": "O atendimento online tem a mesma qualidade e eficácia do presencial. Utilizamos plataformas seguras com criptografia para garantir total sigilo e privacidade."
     }
   ],
-  "about": {
-    "name": "Dra. Ana Carolina Silva",
-    "title": "Psicóloga Clínica CRP 06/123456",
-    "description": "Psicóloga formada pela Universidade de São Paulo (USP), com especialização em Psicologia Feminina e Terapia Cognitivo-Comportamental. Há mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformação.",
-    "highlights": [
-      "Formação em Psicologia pela USP",
-      "Especialização em Psicologia Feminina",
-      "Pós-graduação em Terapia Cognitivo-Comportamental",
-      "Mais de 8 anos de experiência clínica",
-      "Atendimento humanizado e acolhedor"
-    ],
-    "image": "/images/psicologa-foto.jpg"
-  },
-  "cta": {
-    "title": "Pronta para iniciar sua jornada de autoconhecimento?",
-    "subtitle": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar",
-    "buttonText": "Agendar Sessão"
+  "pages": [],
+  "avisos": [],
+  "blog": [],
+  "footer": {
+    "copyright": "© 2024 Dra. Ana Carolina Silva - Todos os direitos reservados",
+    "links": [
+      { "label": "Início", "url": "#inicio" },
+      { "label": "Benefícios", "url": "#beneficios" },
+      { "label": "Serviços", "url": "#servicos" },
+      { "label": "Sobre", "url": "#sobre" },
+      { "label": "Depoimentos", "url": "#depoimentos" }
+    ]
   },
   "professionalInfo": {
     "license": "CRP 06/123456",
     "experience": "Mais de 8 anos de experiência clínica",
     "serviceTypes": "Presencial e online",
     "extraNotes": ""
-  },
-  "pages": [
-    {
-      "slug": "contato",
-      "title": "Contato",
-      "content": "E-mail: contato@psicologiafeminina.com.br • Telefone: +55 11 99999-9999 • Endereço: Av. Paulista, 1000 - São Paulo, SP • WhatsApp: 5511999999999",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200",
-      "sections": [
-        {
-          "title": "E-mail",
-          "content": "contato@psicologiafeminina.com.br"
-        },
-        {
-          "title": "Telefone",
-          "content": "+55 11 99999-9999"
-        },
-        {
-          "title": "Endereço",
-          "content": "Av. Paulista, 1000 - São Paulo, SP"
-        },
-        {
-          "title": "WhatsApp",
-          "content": "5511999999999"
-        }
-      ]
-    },
-    {
-      "slug": "servicos",
-      "title": "Serviços",
-      "content": "Apresente a oferta completa e o valor entregue pelo time.",
-      "image": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=1200",
-      "sections": [
-        {
-          "title": "Serviço destaque",
-          "content": "Descreva o serviço principal, entregáveis e CTA."
-        },
-        {
-          "title": "Serviço complementar",
-          "content": "Inclua resultados, processos e garantias."
-        }
-      ]
-    },
-    {
-      "slug": "cta",
-      "title": "Pronta para iniciar sua jornada de autoconhecimento?",
-      "content": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar",
-      "image": "",
-      "sections": [
-        {
-          "title": "Pronta para iniciar sua jornada de autoconhecimento?",
-          "content": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar"
-        }
-      ]
-    }
-  ],
-  "avisos": [],
-  "blog": [],
-  "footer": {
-    "copyright": "© 2024 Dra. Ana Carolina Silva - Todos os direitos reservados",
-    "links": [
-      {
-        "label": "Início",
-        "url": "#inicio"
-      },
-      {
-        "label": "Benefícios",
-        "url": "#beneficios"
-      },
-      {
-        "label": "Serviços",
-        "url": "#servicos"
-      },
-      {
-        "label": "Sobre",
-        "url": "#sobre"
-      },
-      {
-        "label": "Depoimentos",
-        "url": "#depoimentos"
-      }
-    ]
   },
   "features": {
     "blog": false,
