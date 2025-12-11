@@ -1,15 +1,15 @@
 {
+  "phone": "+55 11 99999-0000",
+  "whatsapp": "5511999990000",
+  "email": "contato@psicologiafeminina.com.br",
+  "address": "Av. Paulista, 2000 - São Paulo, SP",
   "site": {
-    "name": "Dra. Ana Carolina Silva",
-    "tagline": "Psicologia Feminina | Acolhimento e TransformaÃ§Ã£o",
-    "description": "EspaÃ§o seguro e acolhedor para mulheres que buscam autoconhecimento, equilÃ­brio emocional e bem-estar",
-    "phone": "+55 11 99999-9911",
-    "email": "contato@psicologiafeminina.com.br",
-    "whatsapp": "5511999999922",
-    "address": "Av. Paulista, 1000 - SÃ£o Paulo, SP",
+    "name": "Dra. Ana Carolina Silva M",
+    "tagline": "Psicologia Feminina | Acolhimento e Transformação M",
+    "description": "Espaço seguro e acolhedor para mulheres que buscam autoconhecimento, equilíbrio emocional e bem-estar M",
     "social": {
-      "instagram": "https://instagram.com/psicologiafeminina",
-      "facebook": "https://facebook.com/psicologiafeminina"
+      "instagram": "https://instagram.com/psicologiafemininaM",
+      "facebook": "https://facebook.com/psicologiafemininaM"
     },
     "theme": {
       "mode": "light",
@@ -21,134 +21,191 @@
       "textLight": "#1a1a1a",
       "textDark": "#fafafa"
     },
-    "contact": {
-      "whatsapp": "5511999999955",
-      "email": "contato@psicologiafeminina.com.br",
-      "phone": "+55 11 99999-9966",
-      "address": "Av. Paulista, 1000 - SÃ£o Paulo, SP"
-    },
     "marketing": {
       "trackingCode": ""
     }
   },
   "branding": {
     "logo": "/images/psicologia-logo.svg",
-    "title": "Dra. Ana Carolina",
-    "description": "Psicologia Feminina com acolhimento, empatia e transformaÃ§Ã£o genuÃ­na.",
+    "title": "Dra. Ana Carolina M",
+    "description": "Psicologia Feminina com acolhimento, empatia e transformação genuína. M",
     "favicon": "/images/psicologia-favicon.svg",
     "menu": [
-      { "label": "InÃ­cio", "url": "#inicio" },
-      { "label": "BenefÃ­cios", "url": "#beneficios" },
-      { "label": "ServiÃ§os", "url": "#servicos" },
-      { "label": "Sobre", "url": "#sobre" },
-      { "label": "Depoimentos", "url": "#depoimentos" }
+      {
+        "label": "Início",
+        "url": "#inicio"
+      },
+      {
+        "label": "Benefícios",
+        "url": "#beneficios"
+      },
+      {
+        "label": "Serviços",
+        "url": "#servicos"
+      },
+      {
+        "label": "Sobre",
+        "url": "#sobre"
+      },
+      {
+        "label": "Depoimentos",
+        "url": "#depoimentos"
+      }
     ]
   },
   "hero": {
-    "title": "VocÃª merece um espaÃ§o seguro para ser quem vocÃª Ã©",
-    "subtitle": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilÃ­brio emocional e transformaÃ§Ã£o genuÃ­na",
-    "cta": "Agendar SessÃ£o",
+    "title": "Você merece um espaço seguro para ser quem você é M",
+    "subtitle": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilíbrio emocional e transformação genuína M",
+    "buttonLabel": "",
+    "secondaryButtonLabel": "",
+    "cta": "Agendar Sessão M",
     "image": "/images/hero-psicologa.jpg",
     "badge": "Psicologia Integrada"
   },
   "benefits": [
-    { "icon": "Heart", "title": "Acolhimento GenuÃ­no", "description": "Um espaÃ§o seguro onde vocÃª pode ser autÃªntica, sem julgamentos, com respeito e empatia" },
-    { "icon": "Sparkles", "title": "Abordagem Feminina", "description": "Terapia que compreende as questÃµes Ãºnicas da mulher moderna, suas dores e suas potÃªncias" },
-    { "icon": "Shield", "title": "Sigilo Absoluto", "description": "Confidencialidade total em todos os atendimentos, presenciais ou online" },
-    { "icon": "Calendar", "title": "HorÃ¡rios FlexÃ­veis", "description": "Atendimento adaptado Ã  sua rotina, com agendamento facilitado e sessÃµes online" }
+    {
+      "icon": "Heart",
+      "title": "Acolhimento Genuíno M",
+      "description": "Um espaço seguro onde você pode ser autêntica, sem julgamentos, com respeito e empatia"
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Abordagem Feminina M",
+      "description": "Terapia que compreende as questões únicas da mulher moderna, suas dores e suas potências"
+    },
+    {
+      "icon": "Shield",
+      "title": "Sigilo Absoluto M",
+      "description": "Confidencialidade total em todos os atendimentos, presenciais ou online"
+    },
+    {
+      "icon": "Calendar",
+      "title": "Horários Flexíveis",
+      "description": "Atendimento adaptado à sua rotina, com agendamento facilitado e sessões online M"
+    }
   ],
   "services": [
     {
-      "title": "Terapia Individual",
+      "title": "Terapia Individual M",
       "description": "Atendimento personalizado focado em suas necessidades, objetivos e momento de vida atual",
-      "topics": ["Ansiedade e estresse", "Autoestima e autoconfianÃ§a", "Relacionamentos", "TransiÃ§Ãµes de vida"]
+      "topics": [
+        "Ansiedade e estresse",
+        "Autoestima e autoconfiança",
+        "Relacionamentos",
+        "Transições de vida"
+      ]
     },
     {
-      "title": "Terapia Online",
-      "description": "SessÃµes por videochamada com a mesma qualidade do atendimento presencial, no conforto da sua casa",
-      "topics": ["Praticidade", "Mesma eficÃ¡cia", "HorÃ¡rios flexÃ­veis", "Sigilo garantido"]
+      "title": "Terapia Online M",
+      "description": "Sessões por videochamada com a mesma qualidade do atendimento presencial, no conforto da sua casa",
+      "topics": [
+        "Praticidade",
+        "Mesma eficácia",
+        "Horários flexíveis",
+        "Sigilo garantido"
+      ]
     },
     {
-      "title": "Abordagem Integrativa",
-      "description": "CombinaÃ§Ã£o de tÃ©cnicas da psicologia moderna para resultados mais profundos e duradouros",
-      "topics": ["TCC", "PsicanÃ¡lise", "Gestalt", "Mindfulness"]
+      "title": "Abordagem Integrativa M",
+      "description": "Combinação de técnicas da psicologia moderna para resultados mais profundos e duradouros",
+      "topics": [
+        "TCC",
+        "Psicanálise",
+        "Gestalt",
+        "Mindfulness"
+      ]
     }
   ],
-  "about": {
-    "name": "Dra. Ana Carolina Silva",
-    "title": "PsicÃ³loga ClÃ­nica CRP 06/123456",
-    "description": "PsicÃ³loga formada pela Universidade de SÃ£o Paulo (USP), com especializaÃ§Ã£o em Psicologia Feminina e Terapia Cognitivo-Comportamental. HÃ¡ mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformaÃ§Ã£o.",
-    "highlights": [
-      "FormaÃ§Ã£o em Psicologia pela USP",
-      "EspecializaÃ§Ã£o em Psicologia Feminina",
-      "PÃ³s-graduaÃ§Ã£o em Terapia Cognitivo-Comportamental",
-      "Mais de 8 anos de experiÃªncia clÃ­nica",
-      "Atendimento humanizado e acolhedor"
-    ],
-    "image": "/images/psicologa-foto.jpg"
-  },
   "testimonials": [
     {
       "name": "Mariana S.",
-      "text": "A terapia com a Dra. Ana mudou minha vida. Pela primeira vez me senti verdadeiramente ouvida e acolhida. Hoje me conheÃ§o melhor e vivo com mais leveza.",
+      "text": "A terapia com a Dra. Ana mudou minha vida. Pela primeira vez me senti verdadeiramente ouvida e acolhida. Hoje me conheço melhor e vivo com mais leveza. M",
       "image": "/images/testimonial-1.jpg"
     },
     {
       "name": "Juliana P.",
-      "text": "Encontrei na terapia um espaÃ§o seguro para trabalhar questÃµes que carregava hÃ¡ anos. O atendimento Ã© delicado, profundo e transformador.",
+      "text": "Encontrei na terapia um espaço seguro para trabalhar questões que carregava há anos. O atendimento é delicado, profundo e transformador. M",
       "image": "/images/testimonial-2.jpg"
     },
     {
       "name": "Carolina M.",
-      "text": "A abordagem feminina e acolhedora fez toda diferenÃ§a. Me sinto mais confiante, mais eu mesma. GratidÃ£o por esse processo!",
+      "text": "A abordagem feminina e acolhedora fez toda diferença. Me sinto mais confiante, mais eu mesma. Gratidão por esse processo! M",
       "image": "/images/testimonial-3.jpg"
     }
   ],
-  "cta": {
-    "title": "Pronta para iniciar sua jornada de autoconhecimento?",
-    "subtitle": "Agende sua primeira sessÃ£o e dÃª o primeiro passo em direÃ§Ã£o ao equilÃ­brio emocional e bem-estar",
-    "buttonText": "Agendar SessÃ£o"
-  },
   "faq": [
     {
-      "question": "Como funciona a primeira sessÃ£o?",
-      "answer": "A primeira sessÃ£o Ã© um momento de acolhimento e conhecimento mÃºtuo. Vamos conversar sobre o que te trouxe atÃ© aqui, suas expectativas e como posso te ajudar. Ã‰ um espaÃ§o sem julgamentos para vocÃª se sentir Ã  vontade."
+      "question": "Como funciona a primeira sessão? M",
+      "answer": "A primeira sessão é um momento de acolhimento e conhecimento mútuo. Vamos conversar sobre o que te trouxe até aqui, suas expectativas e como posso te ajudar. É um espaço sem julgamentos para você se sentir à vontade."
     },
     {
-      "question": "Qual a frequÃªncia ideal das sessÃµes?",
-      "answer": "Geralmente recomendo sessÃµes semanais, mas a frequÃªncia pode ser ajustada de acordo com suas necessidades e disponibilidade. O importante Ã© manter a constÃ¢ncia para um processo terapÃªutico efetivo."
+      "question": "Qual a frequência ideal das sessões?",
+      "answer": "Geralmente recomendo sessões semanais, mas a frequência pode ser ajustada de acordo com suas necessidades e disponibilidade. O importante é manter a constância para um processo terapêutico efetivo."
     },
     {
-      "question": "Quanto tempo dura cada sessÃ£o?",
-      "answer": "Cada sessÃ£o tem duraÃ§Ã£o de 50 minutos, tempo adequado para um trabalho terapÃªutico profundo e acolhedor."
+      "question": "Quanto tempo dura cada sessão?",
+      "answer": "Cada sessão tem duração de 50 minutos, tempo adequado para um trabalho terapêutico profundo e acolhedor."
     },
     {
-      "question": "Atende por convÃªnio?",
-      "answer": "Trabalho como profissional particular, mas forneÃ§o recibos que podem ser utilizados para reembolso em alguns convÃªnios. Consulte seu plano de saÃºde."
+      "question": "Atende por convênio?",
+      "answer": "Trabalho como profissional particular, mas forneço recibos que podem ser utilizados para reembolso em alguns convênios. Consulte seu plano de saúde."
     },
     {
-      "question": "Como Ã© o atendimento online?",
-      "answer": "O atendimento online tem a mesma qualidade e eficÃ¡cia do presencial. Utilizamos plataformas seguras com criptografia para garantir total sigilo e privacidade."
+      "question": "Como é o atendimento online?",
+      "answer": "O atendimento online tem a mesma qualidade e eficácia do presencial. Utilizamos plataformas seguras com criptografia para garantir total sigilo e privacidade."
     }
   ],
+  "about": {
+    "name": "Dra. Ana Carolina Silva M",
+    "title": "Psicóloga Clínica CRP 06/123456 M",
+    "description": "Psicóloga formada pela Universidade de São Paulo (USP), com especialização em Psicologia Feminina e Terapia Cognitivo-Comportamental. Há mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformação.",
+    "highlights": [
+      "Formação em Psicologia pela USP",
+      "Especialização em Psicologia Feminina",
+      "Pós-graduação em Terapia Cognitivo-Comportamental",
+      "Mais de 8 anos de experiência clínica",
+      "Atendimento humanizado e acolhedor"
+    ],
+    "image": "/images/psicologa-foto.jpg"
+  },
+  "cta": {
+    "title": "Pronta para iniciar sua jornada de autoconhecimento? M",
+    "subtitle": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar",
+    "buttonText": "Agendar Sessão"
+  },
+  "professionalInfo": {
+    "license": "CRP 06/123456",
+    "experience": "Mais de 8 anos de experiência clínica",
+    "serviceTypes": "Presencial e online",
+    "extraNotes": ""
+  },
   "pages": [],
   "avisos": [],
   "blog": [],
   "footer": {
-    "copyright": "Â© 2024 Dra. Ana Carolina Silva - Todos os direitos reservados",
+    "copyright": "© 2024 Dra. Ana Carolina Silva - Todos os direitos reservados M",
     "links": [
-      { "label": "InÃ­cio", "url": "#inicio" },
-      { "label": "BenefÃ­cios", "url": "#beneficios" },
-      { "label": "ServiÃ§os", "url": "#servicos" },
-      { "label": "Sobre", "url": "#sobre" },
-      { "label": "Depoimentos", "url": "#depoimentos" }
+      {
+        "label": "Início",
+        "url": "#inicio"
+      },
+      {
+        "label": "Benefícios",
+        "url": "#beneficios"
+      },
+      {
+        "label": "Serviços",
+        "url": "#servicos"
+      },
+      {
+        "label": "Sobre",
+        "url": "#sobre"
+      },
+      {
+        "label": "Depoimentos",
+        "url": "#depoimentos"
+      }
     ]
-  },
-  "professionalInfo": {
-    "license": "CRP 06/123456",
-    "experience": "Mais de 8 anos de experiÃªncia clÃ­nica",
-    "serviceTypes": "Presencial e online",
-    "extraNotes": ""
   },
   "features": {
     "blog": false,
