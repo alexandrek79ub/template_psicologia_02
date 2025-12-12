@@ -1,11 +1,4 @@
 {
-<<<<<<< HEAD
-=======
-  "phone": "+55 11 99999-9911",
-  "whatsapp": "5511999999911",
-  "email": "contato@psicologiafeminina.com.br",
-  "address": "Av. Paulista, 1099 - S�o Paulo, SP",
->>>>>>> ec28bdd87af5412675511b4ec5d5fe25a17a6ab4
   "site": {
     "name": "Dra. Ana Carolina Silva",
     "tagline": "Psicologia Feminina | Acolhimento e Transformação",
@@ -36,12 +29,6 @@
     },
     "marketing": {
       "trackingCode": ""
-    },
-    "contact": {
-      "phone": "+55 11 99999-9911",
-      "whatsapp": "5511999999911",
-      "email": "contato@psicologiafeminina.com.br",
-      "address": "Av. Paulista, 1099 - S�o Paulo, SP"
     }
   },
   "branding": {
