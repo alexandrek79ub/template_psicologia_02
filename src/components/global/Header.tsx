@@ -1,12 +1,16 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import universalData from "@/data/universal.json";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { branding } = universalData;
 
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
+    // Remove # if present in url
+    const elementId = id.replace('#', '');
+    const element = document.getElementById(elementId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
       setIsMenuOpen(false);
@@ -18,44 +22,28 @@ const Header = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center">
-            <h1 className="text-2xl font-heading font-semibold text-foreground">
-              Dra. Ana Carolina
-            </h1>
+          <div className="flex items-center gap-3">
+            {branding.logo && (
+              <img src={branding.logo} alt="Logo" className="h-10 w-auto" />
+            )}
+            {!branding.logo && (
+              <h1 className="text-2xl font-heading font-semibold text-foreground">
+                {branding.title}
+              </h1>
+            )}
           </div>
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex items-center gap-8">
-            <button
-              onClick={() => scrollToSection("inicio")}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-            >
-              Início
-            </button>
-            <button
-              onClick={() => scrollToSection("beneficios")}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-            >
-              Benefícios
-            </button>
-            <button
-              onClick={() => scrollToSection("servicos")}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-            >
-              Serviços
-            </button>
-            <button
-              onClick={() => scrollToSection("sobre")}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-            >
-              Sobre
-            </button>
-            <button
-              onClick={() => scrollToSection("depoimentos")}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-            >
-              Depoimentos
-            </button>
+            {branding.menu.map((item, index) => (
+              <button
+                key={index}
+                onClick={() => scrollToSection(item.url)}
+                className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+              >
+                {item.label}
+              </button>
+            ))}
             <Button
               onClick={() => scrollToSection("contato")}
               className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-soft"
@@ -77,36 +65,15 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden pb-6 animate-slide-up">
             <nav className="flex flex-col gap-4">
-              <button
-                onClick={() => scrollToSection("inicio")}
-                className="text-left text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-              >
-                Início
-              </button>
-              <button
-                onClick={() => scrollToSection("beneficios")}
-                className="text-left text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-              >
-                Benefícios
-              </button>
-              <button
-                onClick={() => scrollToSection("servicos")}
-                className="text-left text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-              >
-                Serviços
-              </button>
-              <button
-                onClick={() => scrollToSection("sobre")}
-                className="text-left text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-              >
-                Sobre
-              </button>
-              <button
-                onClick={() => scrollToSection("depoimentos")}
-                className="text-left text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-              >
-                Depoimentos
-              </button>
+              {branding.menu.map((item, index) => (
+                <button
+                  key={index}
+                  onClick={() => scrollToSection(item.url)}
+                  className="text-left text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+                >
+                  {item.label}
+                </button>
+              ))}
               <Button
                 onClick={() => scrollToSection("contato")}
                 className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-soft w-full"

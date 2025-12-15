@@ -22,20 +22,28 @@ const AboutSection = ({ data }: AboutSectionProps) => {
             <div className="relative">
               {/* Glass Frame */}
               <div className="glass rounded-3xl p-3 shadow-strong">
-                <div className="aspect-[3/4] rounded-2xl bg-gradient-champagne overflow-hidden">
-                  <div className="w-full h-full bg-muted/20 flex items-center justify-center">
-                    <div className="text-center space-y-4 p-8">
-                      <div className="w-24 h-24 rounded-full bg-primary/10 mx-auto flex items-center justify-center mb-4">
-                        <span className="text-4xl">👩‍⚕️</span>
+                <div className="aspect-[3/4] rounded-2xl bg-gradient-champagne overflow-hidden relative group">
+                  <div className="absolute inset-0 bg-muted/20 flex items-center justify-center">
+                    {data.image ? (
+                      <img
+                        src={data.image}
+                        alt={data.name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div className="text-center space-y-4 p-8">
+                        <div className="w-24 h-24 rounded-full bg-primary/10 mx-auto flex items-center justify-center mb-4">
+                          <span className="text-4xl">👩‍⚕️</span>
+                        </div>
+                        <p className="text-sm text-muted-foreground">
+                          Foto profissional da psicóloga
+                        </p>
                       </div>
-                      <p className="text-sm text-muted-foreground">
-                        Foto profissional da psicóloga
-                      </p>
-                    </div>
+                    )}
                   </div>
                 </div>
               </div>
-              
+
               {/* Decorative Element */}
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-rose-delicate rounded-full blur-2xl opacity-40 -z-10" />
             </div>
@@ -77,7 +85,7 @@ const AboutSection = ({ data }: AboutSectionProps) => {
             {/* Quote */}
             <div className="glass rounded-2xl p-6 border-l-4 border-primary mt-8">
               <p className="text-foreground/80 italic leading-relaxed">
-                "Meu objetivo é criar um espaço onde você se sinta acolhida para explorar suas emoções, 
+                "Meu objetivo é criar um espaço onde você se sinta acolhida para explorar suas emoções,
                 reconhecer suas potências e construir uma vida com mais leveza e autenticidade."
               </p>
             </div>

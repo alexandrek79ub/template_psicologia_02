@@ -18,28 +18,32 @@ const Footer = () => {
           {/* Logo e Descrição */}
           <div className="space-y-4">
             <h3 className="text-2xl font-heading font-semibold text-foreground">
-              Dra. Ana Carolina Silva
+              {data?.branding?.title || "Dra. Ana Carolina Silva"}
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Psicologia Feminina com acolhimento, empatia e transformação genuína.
+              {data?.branding?.description || "Psicologia Feminina com acolhimento, empatia e transformação genuína."}
             </p>
             <div className="flex gap-4 pt-2">
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-              >
-                <Instagram size={18} />
-              </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-              >
-                <Facebook size={18} />
-              </a>
+              {data?.site?.social?.instagram && (
+                <a
+                  href={data.site.social.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                >
+                  <Instagram size={18} />
+                </a>
+              )}
+              {data?.site?.social?.facebook && (
+                <a
+                  href={data.site.social.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                >
+                  <Facebook size={18} />
+                </a>
+              )}
             </div>
           </div>
 
@@ -49,21 +53,15 @@ const Footer = () => {
               Links Rápidos
             </h4>
             <nav className="flex flex-col gap-3">
-              <a href="#inicio" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Início
-              </a>
-              <a href="#beneficios" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Benefícios
-              </a>
-              <a href="#servicos" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Serviços
-              </a>
-              <a href="#sobre" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Sobre
-              </a>
-              <a href="#depoimentos" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Depoimentos
-              </a>
+              {(data?.footer?.links || data?.branding?.menu || []).map((link: any, index: number) => (
+                <a
+                  key={index}
+                  href={link.url}
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
+                  {link.label}
+                </a>
+              ))}
             </nav>
           </div>
 
@@ -98,7 +96,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-border/50 mt-12 pt-8 text-center">
           <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
-            © {currentYear} Dra. Ana Carolina Silva - Todos os direitos reservados
+            {data?.footer?.copyright || `© ${currentYear} Dra. Ana Carolina Silva - Todos os direitos reservados`}
             <Heart size={14} className="text-primary fill-primary" />
           </p>
         </div>
