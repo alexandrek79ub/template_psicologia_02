@@ -24,7 +24,7 @@ const HeroSection = ({ data }: HeroSectionProps) => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBackground})` }}
+        style={{ backgroundImage: `url(${data.image || heroBackground})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/80" />
       
