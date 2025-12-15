@@ -133,23 +133,23 @@
       "Mais de 8 anos de experiência clínica",
       "Atendimento humanizado e acolhedor"
     ],
-    "image": "/images/psicologa-foto.jpg"
+    "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/7ff2c077-4183-46f0-b04e-d34d0198b237.jpg"
   },
   "testimonials": [
     {
       "name": "Mariana S.",
       "text": "A terapia com a Dra. Ana mudou minha vida. Pela primeira vez me senti verdadeiramente ouvida e acolhida. Hoje me conheço melhor e vivo com mais leveza.",
-      "image": "/images/testimonial-1.jpg"
+      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/f770a1f2-f2f0-4977-8c9a-013fc9a860de.jpg"
     },
     {
       "name": "Juliana P.",
       "text": "Encontrei na terapia um espaço seguro para trabalhar questões que carregava há anos. O atendimento é delicado, profundo e transformador.",
-      "image": "/images/testimonial-2.jpg"
+      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/53d3f039-743a-4c6f-92e6-a05fa68ba555.jpg"
     },
     {
       "name": "Carolina M.",
       "text": "A abordagem feminina e acolhedora fez toda diferença. Me sinto mais confiante, mais eu mesma. Gratidão por esse processo!",
-      "image": "/images/testimonial-3.jpg"
+      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/cf4c47c0-6c4e-4bfa-abea-29b00005a1c4.png"
     }
   ],
   "cta": {
