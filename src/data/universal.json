@@ -220,5 +220,12 @@
   "phone": "+55 11 99999-0101",
   "whatsapp": "5511999990202",
   "email": "contato@psicologiafeminina.com.br",
-  "address": "Av. Paulista, 3999 - São Paulo, SP"
+  "address": "Av. Paulista, 3999 - São Paulo, SP",
+  "integrations": {
+    "googleAdsPixelId": "G-TESTE-APLICACAO"
+  },
+  "identity": {
+    "logoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/88a717ae-57e1-4b0b-93f5-2b9629704b27.png",
+    "faviconUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/31b68ced-f77d-4bda-91aa-eeb765786de9.png"
+  }
 }
