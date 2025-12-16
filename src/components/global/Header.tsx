@@ -5,7 +5,7 @@ import universalData from "@/data/universal.json";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { branding } = universalData;
+  const { branding, identity } = universalData;
 
   const scrollToSection = (id: string) => {
     // Remove # if present in url
@@ -23,12 +23,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            {branding.logo && (
-              <img src={branding.logo} alt="Logo" className="h-10 w-auto" />
-            )}
-            {!branding.logo && (
+            {identity?.logoUrl ? (
+              <img src={identity.logoUrl} alt={identity.siteName || "Logo"} className="h-10 w-auto" />
+            ) : (
               <h1 className="text-2xl font-heading font-semibold text-foreground">
-                {branding.title}
+                {identity?.siteName || branding.title}
               </h1>
             )}
           </div>

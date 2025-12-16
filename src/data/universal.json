@@ -1,4 +1,14 @@
 {
+  "identity": {
+    "siteName": "Dra. Ana Carolina",
+    "logoUrl": "/images/psicologia-logo.svg",
+    "faviconUrl": "/images/psicologia-favicon.svg"
+  },
+  "integrations": {
+    "googleAdsPixelId": "",
+    "metaPixelId": "",
+    "googleAnalyticsId": ""
+  },
   "site": {
     "name": "Dra. Ana Carolina Silva",
     "tagline": "Psicologia Feminina | Acolhimento e Transformação",
