@@ -24,7 +24,7 @@
     "contact": {
       "whatsapp": "5511999990202",
       "email": "contato@psicologiafeminina.com.br",
-      "phone": "+55 11 99999-0101",
+      "phone": "+55 11 99999",
       "address": "Av. Paulista, 3999 - São Paulo, SP"
     },
     "marketing": {
@@ -63,7 +63,7 @@
     "title": "Você merece um espaço seguro para ser quem você é",
     "subtitle": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilíbrio emocional e transformação genuína",
     "cta": "Agendar Sessão",
-    "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/8c877200-7e80-4e17-9fd6-5015ae15628a.jpg",
+    "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/0c9383e8-0650-4f6c-aa11-becfafbd9bb6.jpg",
     "badge": "Psicologia Integrada",
     "buttonLabel": "",
     "secondaryButtonLabel": ""
@@ -217,7 +217,7 @@
     "blog": false,
     "avisos": false
   },
-  "phone": "+55 11 99999-0101",
+  "phone": "+55 11 99999",
   "whatsapp": "5511999990202",
   "email": "contato@psicologiafeminina.com.br",
   "address": "Av. Paulista, 3999 - São Paulo, SP"
