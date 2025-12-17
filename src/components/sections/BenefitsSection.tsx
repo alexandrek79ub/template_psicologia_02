@@ -1,4 +1,4 @@
-import { Heart, Sparkles, Shield, Calendar } from "lucide-react";
+import { Heart, Sparkles, Shield, Calendar, AlertCircle, Info } from "lucide-react";
 
 interface Benefit {
   icon: string;
@@ -10,11 +10,12 @@ interface BenefitsSectionProps {
   data: Benefit[];
 }
 
-const iconMap = {
+const iconMap: Record<string, any> = {
   Heart,
   Sparkles,
   Shield,
   Calendar,
+  Avisos: AlertCircle,
 };
 
 const BenefitsSection = ({ data }: BenefitsSectionProps) => {
@@ -22,7 +23,7 @@ const BenefitsSection = ({ data }: BenefitsSectionProps) => {
     <section id="beneficios" className="py-20 lg:py-32 relative">
       {/* Decorative Background */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-rose-delicate rounded-full blur-3xl opacity-20" />
-      
+
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 lg:mb-20 animate-slide-up">
@@ -37,7 +38,7 @@ const BenefitsSection = ({ data }: BenefitsSectionProps) => {
         {/* Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {data.map((benefit, index) => {
-            const Icon = iconMap[benefit.icon as keyof typeof iconMap];
+            const Icon = iconMap[benefit.icon] || Info;
             return (
               <div
                 key={index}

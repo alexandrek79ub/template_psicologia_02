@@ -53,15 +53,25 @@ const Footer = () => {
               Links Rápidos
             </h4>
             <nav className="flex flex-col gap-3">
-              {(data?.footer?.links || data?.branding?.menu || []).map((link: any, index: number) => (
-                <a
-                  key={index}
-                  href={link.url}
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  {link.label}
-                </a>
-              ))}
+              {(data?.footer?.links || []).map((link: any, index: number) => {
+                let url = link.url;
+                if (url && url.startsWith("/http")) {
+                  url = url.substring(1);
+                }
+                const isExternal = url && (url.startsWith("http") || url.startsWith("https"));
+
+                return (
+                  <a
+                    key={index}
+                    href={url}
+                    target={isExternal ? "_blank" : undefined}
+                    rel={isExternal ? "noopener noreferrer" : undefined}
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    {link.label}
+                  </a>
+                );
+              })}
             </nav>
           </div>
 

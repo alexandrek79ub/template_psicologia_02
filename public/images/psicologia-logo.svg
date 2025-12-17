@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" fill="none">
+  <rect width="300" height="100" rx="10" fill="white" fill-opacity="0" />
+  <text x="10" y="65" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#3D4035">Dra. Ana</text>
+  <circle cx="210" cy="50" r="30" fill="#E8B4B8" opacity="0.5" />
+</svg>
