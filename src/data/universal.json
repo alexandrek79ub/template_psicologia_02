@@ -56,6 +56,10 @@
       {
         "label": "Depoimentos",
         "url": "#depoimentos"
+      },
+      {
+        "label": "Video YouTube",
+        "url": "/https://youtu.be/3u1m8W61P_I?si=Do4O0qC3JnQsehFb"
       }
     ]
   },
@@ -88,6 +92,11 @@
       "icon": "Calendar",
       "title": "Horários Flexíveis",
       "description": "Atendimento adaptado à sua rotina, com agendamento facilitado e sessões online"
+    },
+    {
+      "icon": "Avisos",
+      "title": "Avisos Importantes",
+      "description": "Recomendamos atendimento presencial"
     }
   ],
   "services": [
@@ -120,6 +129,14 @@
         "Gestalt",
         "Mindfulness"
       ]
+    },
+    {
+      "title": "Abordagem teste",
+      "description": "Combinação de técnicas",
+      "topics": [
+        "TCC",
+        "Psicanálise"
+      ]
     }
   ],
   "about": {
@@ -150,6 +167,11 @@
       "name": "Carolina M.",
       "text": "A abordagem feminina e acolhedora fez toda diferença. Me sinto mais confiante, mais eu mesma. Gratidão por esse processo!",
       "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/cf4c47c0-6c4e-4bfa-abea-29b00005a1c4.png"
+    },
+    {
+      "name": "Daniell",
+      "text": "Encontrei na terapia um espaço seguro para",
+      "image": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/6275daa0-7a31-4249-b7e2-f65b20c121ae.jpg"
     }
   ],
   "cta": {
@@ -177,6 +199,10 @@
     {
       "question": "Como é o atendimento online?",
       "answer": "O atendimento online tem a mesma qualidade e eficácia do presencial. Utilizamos plataformas seguras com criptografia para garantir total sigilo e privacidade."
+    },
+    {
+      "question": "ótima pergunta",
+      "answer": "como faço para modificar ou incluir novas perguntas?????"
     }
   ],
   "pages": [],
@@ -204,6 +230,10 @@
       {
         "label": "Depoimentos",
         "url": "#depoimentos"
+      },
+      {
+        "label": "Video Youtube",
+        "url": "/https://youtu.be/-NaigKq8-fU?si=sWxH9txqwkqP9I2G"
       }
     ]
   },
