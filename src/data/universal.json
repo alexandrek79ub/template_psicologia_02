@@ -17,7 +17,7 @@
         "itens": [
             {
                 "rotulo": "Início",
-                "url": "#hero"
+                "url": "#inicio"
             },
             {
                 "rotulo": "Benefícios",
@@ -220,7 +220,7 @@
             "links": [
                 {
                     "rotulo": "Início",
-                    "url": "#hero"
+                    "url": "#inicio"
                 },
                 {
                     "rotulo": "Benefícios",

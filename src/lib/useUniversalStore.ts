@@ -1,22 +1,45 @@
-import universalData from "@/data/universal.json";
+import universalData from "@/data/universalAdapter";
 
+/**
+ * Hook para acessar dados universais adaptados do V3 para V2
+ * Fornece os dados no formato esperado pelos componentes globais
+ */
 export const useUniversalData = () => {
-  const contact = universalData?.site?.contact;
-
-  // Mirror contact values into top-level site fields when provided
-  const data = contact
-    ? {
-        ...universalData,
-        site: {
-          ...universalData.site,
-          phone: contact.phone || universalData.site?.phone,
-          whatsapp: contact.whatsapp || universalData.site?.whatsapp,
-          email: contact.email || universalData.site?.email,
-          address: contact.address || universalData.site?.address,
-          contact,
-        },
-      }
-    : universalData;
+  // Mapear os dados adaptados para o formato esperado pelos componentes globais legados
+  const data = {
+    // Identity / Branding
+    identity: universalData.identity,
+    branding: {
+      title: universalData.identity.siteName,
+      description: universalData.identity.description,
+      logoUrl: universalData.identity.logoUrl,
+      faviconUrl: universalData.identity.faviconUrl,
+      menu: universalData.menu.items,
+      ctaButton: universalData.menu.ctaButton,
+    },
+    // Site data (contact, social, etc)
+    site: {
+      contact: universalData.contact,
+      phone: universalData.contact.phone,
+      whatsapp: universalData.contact.whatsapp,
+      email: universalData.contact.email,
+      address: universalData.contact.address,
+      social: universalData.socialLinks,
+    },
+    // Footer data
+    footer: universalData.footer,
+    // All sections
+    sections: universalData.sections,
+    // Individual section data
+    hero: universalData.hero,
+    benefits: universalData.benefits,
+    services: universalData.services,
+    about: universalData.about,
+    testimonials: universalData.testimonials,
+    cta: universalData.cta,
+    faq: universalData.faq,
+  };
 
   return { data };
 };
+

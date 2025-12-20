@@ -10,7 +10,8 @@ import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import CTASection from "@/components/sections/CTASection";
 import FAQSection from "@/components/sections/FAQSection";
 import SecondaryForm from "@/components/global/SecondaryForm";
-import universalData from "@/data/universal.json";
+// Import from the adapter that converts V3 (Portuguese) to V2 (English) format
+import universalData from "@/data/universalAdapter";
 
 const Index = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -22,15 +23,15 @@ const Index = () => {
   return (
     <div className={`min-h-screen ${isLoaded ? "opacity-100" : "opacity-0"} transition-opacity duration-500`}>
       <Header />
-      
+
       <main>
-        <HeroSection data={universalData.hero} />
-        <BenefitsSection data={universalData.benefits} />
-        <ServicesSection data={universalData.services} />
-        <AboutSection data={universalData.about} />
-        <TestimonialsSection data={universalData.testimonials} />
-        <CTASection data={universalData.cta} />
-        <FAQSection data={universalData.faq} />
+        {universalData.sections.hero.active && <HeroSection data={universalData.hero} />}
+        {universalData.sections.benefits.active && <BenefitsSection data={universalData.benefits} />}
+        {universalData.sections.services.active && <ServicesSection data={universalData.services} />}
+        {universalData.sections.about.active && <AboutSection data={universalData.about} />}
+        {universalData.sections.testimonials.active && <TestimonialsSection data={universalData.testimonials} />}
+        {universalData.sections.cta.active && <CTASection data={universalData.cta} />}
+        {universalData.sections.faq.active && <FAQSection data={universalData.faq} />}
         <SecondaryForm />
       </main>
 
