@@ -243,11 +243,11 @@
   },
   "configuracoes": {
     "tema": {
-      "paletaId": "noite-elegante",
-      "corPrimaria": "#8b5cf6",
-      "corSecundaria": "#a78bfa",
-      "corFundo": "#0f0f23",
-      "corTexto": "#f1f5f9",
+      "paletaId": "obsidiana",
+      "corPrimaria": "#f59e0b",
+      "corSecundaria": "#fbbf24",
+      "corFundo": "#18181b",
+      "corTexto": "#fafafa",
       "modoEscuro": false
     },
     "funcionalidades": {
