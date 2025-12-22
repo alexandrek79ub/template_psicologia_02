@@ -243,11 +243,11 @@
   },
   "configuracoes": {
     "tema": {
-      "paletaId": "dourado-classico",
-      "corPrimaria": "#b45309",
-      "corSecundaria": "#d97706",
-      "corFundo": "#fffbeb",
-      "corTexto": "#451a03",
+      "paletaId": "aurora-boreal",
+      "corPrimaria": "#10b981",
+      "corSecundaria": "#34d399",
+      "corFundo": "#0c1222",
+      "corTexto": "#e0f2fe",
       "modoEscuro": false
     },
     "funcionalidades": {
