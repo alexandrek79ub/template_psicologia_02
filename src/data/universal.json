@@ -61,7 +61,7 @@
     "hero": {
       "ativo": true,
       "badge": "Psicologia Integrada",
-      "titulo": "Você merece um espaço seguro para ser quem você é",
+      "titulo": "Você merece um espaço seguro para ser quem você é M",
       "subtitulo": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilíbrio emocional e transformação genuína",
       "imagemFundo": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/0c9383e8-0650-4f6c-aa11-becfafbd9bb6.jpg",
       "botaoPrincipal": {
@@ -243,12 +243,12 @@
   },
   "configuracoes": {
     "tema": {
-      "corPrimaria": "#059669",
-      "corSecundaria": "#34d399",
-      "corFundo": "#f0fdf4",
+      "corPrimaria": "#374151",
+      "corSecundaria": "#6b7280",
+      "corFundo": "#f9fafb",
       "modoEscuro": false,
-      "corTexto": "#14532d",
-      "paletaId": "verde-natureza"
+      "corTexto": "#111827",
+      "paletaId": "cinza-minimalista"
     },
     "funcionalidades": {
       "blogAtivo": false,
