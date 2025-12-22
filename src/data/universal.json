@@ -243,12 +243,12 @@
   },
   "configuracoes": {
     "tema": {
-      "corPrimaria": "#374151",
-      "corSecundaria": "#6b7280",
-      "corFundo": "#f9fafb",
+      "corPrimaria": "#3b82f6",
+      "corSecundaria": "#60a5fa",
+      "corFundo": "#09090b",
       "modoEscuro": false,
-      "corTexto": "#111827",
-      "paletaId": "cinza-minimalista"
+      "corTexto": "#f4f4f5",
+      "paletaId": "carbon-tech"
     },
     "funcionalidades": {
       "blogAtivo": false,
