@@ -243,11 +243,11 @@
   },
   "configuracoes": {
     "tema": {
-      "paletaId": "obsidiana",
-      "corPrimaria": "#f59e0b",
-      "corSecundaria": "#fbbf24",
-      "corFundo": "#18181b",
-      "corTexto": "#fafafa",
+      "paletaId": "dourado-classico",
+      "corPrimaria": "#b45309",
+      "corSecundaria": "#d97706",
+      "corFundo": "#fffbeb",
+      "corTexto": "#451a03",
       "modoEscuro": false
     },
     "funcionalidades": {
