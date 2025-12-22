@@ -63,7 +63,7 @@
       "badge": "Psicologia Integrada",
       "titulo": "Você merece um espaço seguro para ser quem você é",
       "subtitulo": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilíbrio emocional e transformação genuína",
-      "imagemFundo": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/0c9383e8-0650-4f6c-aa11-becfafbd9bb6.jpg",
+      "imagemFundo": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/7f0d8bc6-6158-4712-bfe6-5ce8172f12a5.jpg",
       "botaoPrincipal": {
         "rotulo": "Agendar Sessão",
         "url": "https://wa.me/5511999995656"
@@ -143,7 +143,7 @@
       "badge": "Conheça a Profissional",
       "titulo": "Dra. Ana Carolina Silva",
       "descricao": "Psicóloga formada pela Universidade de São Paulo (USP), com especialização em Psicologia Feminina e Terapia Cognitivo-Comportamental. Há mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformação.",
-      "imagem": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/7ff2c077-4183-46f0-b04e-d34d0198b237.jpg",
+      "imagem": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/caf1e610-9dc2-465c-972c-1a5258180371.jpg",
       "destaques": [
         "Formação em Psicologia pela USP",
         "Especialização em Psicologia Feminina",
@@ -243,11 +243,11 @@
   },
   "configuracoes": {
     "tema": {
-      "paletaId": "roxo-elegante",
-      "corPrimaria": "#7c3aed",
-      "corSecundaria": "#a78bfa",
-      "corFundo": "#faf5ff",
-      "corTexto": "#2e1065",
+      "paletaId": "rosa-suave",
+      "corPrimaria": "#c9a5a5",
+      "corSecundaria": "#e8d4d4",
+      "corFundo": "#faf7f5",
+      "corTexto": "#2d2a2a",
       "modoEscuro": false
     },
     "funcionalidades": {
