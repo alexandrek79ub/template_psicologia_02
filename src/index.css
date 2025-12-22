@@ -140,6 +140,9 @@ All colors MUST be HSL.
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);
+    /* Cores de texto com contraste para fundo glass (sempre claro) */
+    --foreground: var(--glass-foreground, 0 0% 10%);
+    --muted-foreground: var(--glass-muted-foreground, 0 0% 35%);
   }
   
   .shadow-soft {

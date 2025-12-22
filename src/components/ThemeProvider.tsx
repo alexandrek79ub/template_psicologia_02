@@ -66,10 +66,10 @@ function getContrastForeground(hex: string): string {
   const r = parseInt(hex.substring(0, 2), 16);
   const g = parseInt(hex.substring(2, 4), 16);
   const b = parseInt(hex.substring(4, 6), 16);
-  
+
   // Calcula luminância relativa
   const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
-  
+
   // Retorna preto ou branco baseado na luminância
   return luminance > 0.5 ? '0 0% 10%' : '0 0% 98%';
 }
@@ -83,7 +83,7 @@ function generateColorVariations(hex: string) {
   const h = parseInt(parts[0]);
   const s = parseInt(parts[1]);
   const l = parseInt(parts[2]);
-  
+
   return {
     base: hsl,
     lighter: `${h} ${Math.min(s + 10, 100)}% ${Math.min(l + 15, 95)}%`,
@@ -108,51 +108,56 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
 
   useEffect(() => {
     const root = document.documentElement;
-    
+
     // Converte as cores HEX para HSL
     const primaryHSL = hexToHSL(themeConfig.corPrimaria);
     const secondaryHSL = hexToHSL(themeConfig.corSecundaria);
     const backgroundHSL = hexToHSL(themeConfig.corFundo);
     const foregroundHSL = hexToHSL(themeConfig.corTexto);
-    
+
     // Gera variações de cores
     const primaryVariations = generateColorVariations(themeConfig.corPrimaria);
     const secondaryVariations = generateColorVariations(themeConfig.corSecundaria);
-    
+
     // Calcula cores de foreground contrastantes
     const primaryForeground = getContrastForeground(themeConfig.corPrimaria);
     const secondaryForeground = getContrastForeground(themeConfig.corSecundaria);
-    
+
     // Aplica as CSS variables principais
     root.style.setProperty('--primary', primaryHSL);
     root.style.setProperty('--primary-foreground', primaryForeground);
-    
+
     root.style.setProperty('--secondary', secondaryHSL);
     root.style.setProperty('--secondary-foreground', secondaryForeground);
-    
+
     root.style.setProperty('--background', backgroundHSL);
     root.style.setProperty('--foreground', foregroundHSL);
-    
+
     // Aplica cores derivadas para UI consistente
     root.style.setProperty('--card', backgroundHSL);
     root.style.setProperty('--card-foreground', foregroundHSL);
-    
+
     root.style.setProperty('--popover', backgroundHSL);
     root.style.setProperty('--popover-foreground', foregroundHSL);
-    
+
     // Cores de accent baseadas na secundária
     root.style.setProperty('--accent', secondaryVariations.lighter);
     root.style.setProperty('--accent-foreground', foregroundHSL);
-    
+
     // Cores muted baseadas na primária
     root.style.setProperty('--muted', primaryVariations.muted);
-    root.style.setProperty('--muted-foreground', `${foregroundHSL.split(' ')[0]} 0% 40%`);
-    
+    // Calcula muted-foreground com base na luminosidade do fundo
+    // Se o fundo for escuro, muted-foreground deve ser um cinza claro
+    // Se o fundo for claro, muted-foreground deve ser um cinza escuro
+    const bgLightness = parseInt(backgroundHSL.split(' ')[2]); // Extrai L% do HSL
+    const mutedForegroundLightness = bgLightness < 50 ? '65%' : '40%'; // Claro para fundo escuro, escuro para fundo claro
+    root.style.setProperty('--muted-foreground', `0 0% ${mutedForegroundLightness}`);
+
     // Border e input baseados na secundária
     root.style.setProperty('--border', secondaryHSL);
     root.style.setProperty('--input', primaryVariations.muted);
     root.style.setProperty('--ring', primaryHSL);
-    
+
     // Sidebar colors
     root.style.setProperty('--sidebar-background', backgroundHSL);
     root.style.setProperty('--sidebar-foreground', foregroundHSL);
@@ -162,20 +167,26 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
     root.style.setProperty('--sidebar-accent-foreground', secondaryForeground);
     root.style.setProperty('--sidebar-border', secondaryHSL);
     root.style.setProperty('--sidebar-ring', primaryHSL);
-    
+
     // Cores temáticas especiais (para gradientes e efeitos)
     root.style.setProperty('--rose-gold', primaryHSL);
     root.style.setProperty('--rose-delicate', secondaryHSL);
     root.style.setProperty('--champagne-soft', secondaryVariations.lighter);
     root.style.setProperty('--beige-calm', backgroundHSL);
-    
+
+    // Cores específicas para elementos glass (sempre com contraste em fundo branco/transparente)
+    // Glass sempre tem fundo claro, então o texto precisa ser escuro para contraste
+    root.style.setProperty('--glass-foreground', '0 0% 10%'); // Preto suave para títulos
+    root.style.setProperty('--glass-muted-foreground', '0 0% 35%'); // Cinza escuro para subtextos
+    root.style.setProperty('--glass-primary', primaryHSL); // Cor primária para destaques
+
     // Aplica modo escuro se configurado
     if (themeConfig.modoEscuro) {
       root.classList.add('dark');
     } else {
       root.classList.remove('dark');
     }
-    
+
     console.log('🎨 Theme applied from universal.json:', {
       paletaId: themeConfig.paletaId,
       primary: themeConfig.corPrimaria,
@@ -183,7 +194,7 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
       background: themeConfig.corFundo,
       text: themeConfig.corTexto,
     });
-    
+
   }, [themeConfig]);
 
   const contextValue: ThemeContextType = {
