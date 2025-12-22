@@ -20,14 +20,14 @@ const HeroSection = ({ data }: HeroSectionProps) => {
   };
 
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${data.image || heroBackground})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background/80" />
-      
+
       {/* Decorative Elements */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-rose-delicate rounded-full blur-3xl opacity-20 animate-pulse" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-champagne-soft rounded-full blur-3xl opacity-20 animate-pulse" style={{ animationDelay: "1s" }} />

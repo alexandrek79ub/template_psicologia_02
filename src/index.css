@@ -140,15 +140,40 @@ All colors MUST be HSL.
 }
 
 @layer utilities {
+  /* Glass Effect - Dinâmico baseado na paleta */
   .glass {
+    background: var(--glass-bg, hsl(var(--background) / 0.85));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border, hsl(var(--foreground) / 0.1));
+    color: hsl(var(--foreground));
+  }
+
+  /* Glass variante clara - para paletas claras */
+  .glass-light {
+    background: hsl(0 0% 100% / 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid hsl(0 0% 0% / 0.08);
+    color: hsl(var(--foreground));
+  }
+
+  /* Glass variante escura - para quando precisa de contraste em fundos claros */
+  .glass-dark {
     background: hsl(0 0% 10% / 0.85);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid hsl(0 0% 100% / 0.1);
-    /* Fundo escuro com texto claro para contraste */
-    --foreground: 0 0% 98%;
-    --muted-foreground: 0 0% 80%;
     color: hsl(0 0% 98%);
+  }
+
+  /* Glass variante usando cor primária */
+  .glass-primary {
+    background: hsl(var(--primary) / 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid hsl(var(--primary) / 0.2);
+    color: hsl(var(--foreground));
   }
 
   .shadow-soft {

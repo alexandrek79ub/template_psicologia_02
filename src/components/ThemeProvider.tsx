@@ -174,10 +174,25 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
     root.style.setProperty('--champagne-soft', secondaryVariations.lighter);
     root.style.setProperty('--beige-calm', backgroundHSL);
 
-    // Cores específicas para elementos glass (sempre com contraste em fundo branco/transparente)
-    // Glass sempre tem fundo claro, então o texto precisa ser escuro para contraste
-    root.style.setProperty('--glass-foreground', '0 0% 10%'); // Preto suave para títulos
-    root.style.setProperty('--glass-muted-foreground', '0 0% 35%'); // Cinza escuro para subtextos
+    // Calcula cores do glass effect baseado na luminosidade do fundo
+    // Se o fundo for claro (L > 50), usa glass claro. Se for escuro (L <= 50), usa glass escuro.
+    const bgLightnessValue = parseInt(backgroundHSL.split(' ')[2]); // Extrai L% do HSL
+    const isLightBackground = bgLightnessValue > 50;
+    
+    if (isLightBackground) {
+      // Paleta clara: glass com fundo branco translúcido
+      root.style.setProperty('--glass-bg', 'hsl(0 0% 100% / 0.85)');
+      root.style.setProperty('--glass-border', 'hsl(0 0% 0% / 0.08)');
+      root.style.setProperty('--glass-foreground', '0 0% 10%');
+      root.style.setProperty('--glass-muted-foreground', '0 0% 35%');
+    } else {
+      // Paleta escura: glass com fundo escuro translúcido
+      root.style.setProperty('--glass-bg', 'hsl(0 0% 10% / 0.85)');
+      root.style.setProperty('--glass-border', 'hsl(0 0% 100% / 0.1)');
+      root.style.setProperty('--glass-foreground', '0 0% 98%');
+      root.style.setProperty('--glass-muted-foreground', '0 0% 80%');
+    }
+    
     root.style.setProperty('--glass-primary', primaryHSL); // Cor primária para destaques
 
     // Aplica modo escuro se configurado
