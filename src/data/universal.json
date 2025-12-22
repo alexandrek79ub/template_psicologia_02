@@ -1,258 +1,327 @@
 {
-    "versao": "3.0",
-    "identidade": {
-        "nomeSite": "Dra. Ana Carolina Silva",
-        "logoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/88a717ae-57e1-4b0b-93f5-2b9629704b27.png",
-        "faviconUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/31b68ced-f77d-4bda-91aa-eeb765786de9.png",
-        "descricao": "Espaço seguro e acolhedor para mulheres que buscam autoconhecimento, equilíbrio emocional e bem-estar",
-        "palavrasChave": [
-            "psicologia",
-            "terapia",
-            "psicologia feminina",
-            "mulheres",
-            "autoconhecimento"
-        ]
-    },
-    "menu": {
-        "itens": [
-            {
-                "rotulo": "Início",
-                "url": "#hero"
-            },
-            {
-                "rotulo": "Benefícios",
-                "url": "#beneficios"
-            },
-            {
-                "rotulo": "Serviços",
-                "url": "#servicos"
-            },
-            {
-                "rotulo": "Sobre",
-                "url": "#sobre"
-            },
-            {
-                "rotulo": "Depoimentos",
-                "url": "#depoimentos"
-            }
-        ],
-        "botaoCTA": {
-            "rotulo": "Agendar Sessão",
-            "url": "https://wa.me/5511999995656",
-            "destaque": true
-        }
-    },
-    "contato": {
-        "telefone": "+55 11 99999-0101",
-        "whatsapp": "5511999995656",
-        "email": "contato@psicologiafeminina.com.br",
-        "endereco": "Av. Paulista, 3999 - São Paulo, SP"
-    },
-    "redesSociais": {
-        "instagram": "https://instagram.com/psicologiafeminina",
-        "facebook": "https://facebook.com/psicologiafeminina"
-    },
-    "integracoes": {
-        "googleAnalyticsId": "",
-        "metaPixelId": "",
-        "googleAdsId": "G-TESTE-APLICACAO"
-    },
-    "secoes": {
-        "hero": {
-            "ativo": true,
-            "badge": "Psicologia Integrada",
-            "titulo": "Você merece um espaço seguro para ser quem você é",
-            "subtitulo": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilíbrio emocional e transformação genuína",
-            "imagemFundo": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/0c9383e8-0650-4f6c-aa11-becfafbd9bb6.jpg",
-            "botaoPrincipal": {
-                "rotulo": "Agendar Sessão",
-                "url": "https://wa.me/5511999995656"
-            },
-            "botaoSecundario": {
-                "rotulo": "Saiba Mais",
-                "url": "#sobre"
-            }
-        },
-        "beneficios": {
-            "ativo": true,
-            "badge": "Por que escolher",
-            "titulo": "Benefícios da Terapia",
-            "itens": [
-                {
-                    "icone": "Heart",
-                    "titulo": "Acolhimento Genuíno",
-                    "descricao": "Um espaço seguro onde você pode ser autêntica, sem julgamentos, com respeito e empatia"
-                },
-                {
-                    "icone": "Sparkles",
-                    "titulo": "Abordagem Feminina",
-                    "descricao": "Terapia que compreende as questões únicas da mulher moderna, suas dores e suas potências"
-                },
-                {
-                    "icone": "Shield",
-                    "titulo": "Sigilo Absoluto",
-                    "descricao": "Confidencialidade total em todos os atendimentos, presenciais ou online"
-                },
-                {
-                    "icone": "Calendar",
-                    "titulo": "Horários Flexíveis",
-                    "descricao": "Atendimento adaptado à sua rotina, com agendamento facilitado e sessões online"
-                }
-            ]
-        },
-        "servicos": {
-            "ativo": true,
-            "badge": "O que oferecemos",
-            "titulo": "Nossos Serviços",
-            "descricao": "Atendimento especializado para mulheres",
-            "itens": [
-                {
-                    "titulo": "Terapia Individual",
-                    "descricao": "Atendimento personalizado focado em suas necessidades, objetivos e momento de vida atual",
-                    "topicos": [
-                        "Ansiedade e estresse",
-                        "Autoestima e autoconfiança",
-                        "Relacionamentos",
-                        "Transições de vida"
-                    ]
-                },
-                {
-                    "titulo": "Terapia Online",
-                    "descricao": "Sessões por videochamada com a mesma qualidade do atendimento presencial, no conforto da sua casa",
-                    "topicos": [
-                        "Praticidade",
-                        "Mesma eficácia",
-                        "Horários flexíveis",
-                        "Sigilo garantido"
-                    ]
-                },
-                {
-                    "titulo": "Abordagem Integrativa",
-                    "descricao": "Combinação de técnicas da psicologia moderna para resultados mais profundos e duradouros",
-                    "topicos": [
-                        "TCC",
-                        "Psicanálise",
-                        "Gestalt",
-                        "Mindfulness"
-                    ]
-                }
-            ]
-        },
-        "sobre": {
-            "ativo": true,
-            "badge": "Conheça a Profissional",
-            "titulo": "Dra. Ana Carolina Silva",
-            "descricao": "Psicóloga formada pela Universidade de São Paulo (USP), com especialização em Psicologia Feminina e Terapia Cognitivo-Comportamental. Há mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformação.",
-            "imagem": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/7ff2c077-4183-46f0-b04e-d34d0198b237.jpg",
-            "destaques": [
-                "Formação em Psicologia pela USP",
-                "Especialização em Psicologia Feminina",
-                "Pós-graduação em Terapia Cognitivo-Comportamental",
-                "Mais de 8 anos de experiência clínica",
-                "Atendimento humanizado e acolhedor"
-            ]
-        },
-        "depoimentos": {
-            "ativo": true,
-            "badge": "Histórias de Transformação",
-            "titulo": "O que dizem nossas pacientes",
-            "itens": [
-                {
-                    "nome": "Mariana S.",
-                    "texto": "A terapia com a Dra. Ana mudou minha vida. Pela primeira vez me senti verdadeiramente ouvida e acolhida. Hoje me conheço melhor e vivo com mais leveza.",
-                    "fotoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/f770a1f2-f2f0-4977-8c9a-013fc9a860de.jpg"
-                },
-                {
-                    "nome": "Juliana P.",
-                    "texto": "Encontrei na terapia um espaço seguro para trabalhar questões que carregava há anos. O atendimento é delicado, profundo e transformador.",
-                    "fotoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/53d3f039-743a-4c6f-92e6-a05fa68ba555.jpg"
-                },
-                {
-                    "nome": "Carolina M.",
-                    "texto": "A abordagem feminina e acolhedora fez toda diferença. Me sinto mais confiante, mais eu mesma. Gratidão por esse processo!",
-                    "fotoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/cf4c47c0-6c4e-4bfa-abea-29b00005a1c4.png"
-                },
-                {
-                    "nome": "Daniell",
-                    "texto": "Encontrei na terapia um espaço seguro para trabalhar minhas questões.",
-                    "fotoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/6275daa0-7a31-4249-b7e2-f65b20c121ae.jpg"
-                }
-            ]
-        },
-        "faq": {
-            "ativo": true,
-            "badge": "Dúvidas Frequentes",
-            "titulo": "Perguntas Frequentes",
-            "itens": [
-                {
-                    "pergunta": "Como funciona a primeira sessão?",
-                    "resposta": "A primeira sessão é um momento de acolhimento e conhecimento mútuo. Vamos conversar sobre o que te trouxe até aqui, suas expectativas e como posso te ajudar. É um espaço sem julgamentos para você se sentir à vontade."
-                },
-                {
-                    "pergunta": "Qual a frequência ideal das sessões?",
-                    "resposta": "Geralmente recomendo sessões semanais, mas a frequência pode ser ajustada de acordo com suas necessidades e disponibilidade. O importante é manter a constância para um processo terapêutico efetivo."
-                },
-                {
-                    "pergunta": "Quanto tempo dura cada sessão?",
-                    "resposta": "Cada sessão tem duração de 50 minutos, tempo adequado para um trabalho terapêutico profundo e acolhedor."
-                },
-                {
-                    "pergunta": "Atende por convênio?",
-                    "resposta": "Trabalho como profissional particular, mas forneço recibos que podem ser utilizados para reembolso em alguns convênios. Consulte seu plano de saúde."
-                },
-                {
-                    "pergunta": "Como é o atendimento online?",
-                    "resposta": "O atendimento online tem a mesma qualidade e eficácia do presencial. Utilizamos plataformas seguras com criptografia para garantir total sigilo e privacidade."
-                }
-            ]
-        },
-        "cta": {
-            "ativo": true,
-            "titulo": "Pronta para iniciar sua jornada de autoconhecimento?",
-            "descricao": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar",
-            "botaoTexto": "Agendar Sessão",
-            "botaoUrl": "https://wa.me/5511999995656"
-        },
-        "rodape": {
-            "descricaoMarca": "Psicologia Feminina com acolhimento, empatia e transformação genuína.",
-            "copyright": "© 2024 Dra. Ana Carolina Silva - Todos os direitos reservados",
-            "registroProfissional": "CRP 06/123456",
-            "links": [
-                {
-                    "rotulo": "Início",
-                    "url": "#hero"
-                },
-                {
-                    "rotulo": "Benefícios",
-                    "url": "#beneficios"
-                },
-                {
-                    "rotulo": "Serviços",
-                    "url": "#servicos"
-                },
-                {
-                    "rotulo": "Sobre",
-                    "url": "#sobre"
-                },
-                {
-                    "rotulo": "Depoimentos",
-                    "url": "#depoimentos"
-                }
-            ]
-        }
-    },
-    "configuracoes": {
-        "tema": {
-            "paletaId": "rosa-suave",
-            "corPrimaria": "#c9a5a5",
-            "corSecundaria": "#e8d4d4",
-            "corFundo": "#faf7f5",
-            "corTexto": "#2d2a2a",
-            "modoEscuro": false
-        },
-        "funcionalidades": {
-            "blogAtivo": false,
-            "avisosAtivos": false
-        }
+  "versao": "3.0",
+  "identidade": {
+    "nomeSite": "Dra. Ana Carolina Silva",
+    "logoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/88a717ae-57e1-4b0b-93f5-2b9629704b27.png",
+    "faviconUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/31b68ced-f77d-4bda-91aa-eeb765786de9.png",
+    "descricao": "Espaço seguro e acolhedor para mulheres que buscam autoconhecimento, equilíbrio emocional e bem-estar",
+    "palavrasChave": [
+      "psicologia",
+      "terapia",
+      "psicologia feminina",
+      "mulheres",
+      "autoconhecimento"
+    ]
+  },
+  "menu": {
+    "itens": [
+      {
+        "rotulo": "Início",
+        "url": "#hero"
+      },
+      {
+        "rotulo": "Benefícios",
+        "url": "#beneficios"
+      },
+      {
+        "rotulo": "Serviços",
+        "url": "#servicos"
+      },
+      {
+        "rotulo": "Sobre",
+        "url": "#sobre"
+      },
+      {
+        "rotulo": "Depoimentos",
+        "url": "#depoimentos"
+      }
+    ],
+    "botaoCTA": {
+      "rotulo": "Agendar Sessão",
+      "url": "https://wa.me/5511999995656",
+      "destaque": true
     }
+  },
+  "contato": {
+    "telefone": "+55 11 99999-0101",
+    "whatsapp": "5511999995656",
+    "email": "contato@psicologiafeminina.com.br",
+    "endereco": "Av. Paulista, 3999 - São Paulo, SP"
+  },
+  "redesSociais": {
+    "instagram": "https://instagram.com/psicologiafeminina",
+    "facebook": "https://facebook.com/psicologiafeminina"
+  },
+  "integracoes": {
+    "googleAnalyticsId": "",
+    "metaPixelId": "",
+    "googleAdsId": "G-TESTE-APLICACAO"
+  },
+  "secoes": {
+    "hero": {
+      "ativo": true,
+      "badge": "Psicologia Integrada",
+      "titulo": "Você merece um espaço seguro para ser quem você é",
+      "subtitulo": "Psicoterapia acolhedora e feminina para mulheres que buscam autoconhecimento, equilíbrio emocional e transformação genuína",
+      "imagemFundo": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/0c9383e8-0650-4f6c-aa11-becfafbd9bb6.jpg",
+      "botaoPrincipal": {
+        "rotulo": "Agendar Sessão",
+        "url": "https://wa.me/5511999995656"
+      },
+      "botaoSecundario": {
+        "rotulo": "Saiba Mais",
+        "url": "#sobre"
+      }
+    },
+    "beneficios": {
+      "ativo": true,
+      "badge": "Por que escolher",
+      "titulo": "Benefícios da Terapia",
+      "itens": [
+        {
+          "icone": "Heart",
+          "titulo": "Acolhimento Genuíno",
+          "descricao": "Um espaço seguro onde você pode ser autêntica, sem julgamentos, com respeito e empatia"
+        },
+        {
+          "icone": "Sparkles",
+          "titulo": "Abordagem Feminina",
+          "descricao": "Terapia que compreende as questões únicas da mulher moderna, suas dores e suas potências"
+        },
+        {
+          "icone": "Shield",
+          "titulo": "Sigilo Absoluto",
+          "descricao": "Confidencialidade total em todos os atendimentos, presenciais ou online"
+        },
+        {
+          "icone": "Calendar",
+          "titulo": "Horários Flexíveis",
+          "descricao": "Atendimento adaptado à sua rotina, com agendamento facilitado e sessões online"
+        }
+      ]
+    },
+    "servicos": {
+      "ativo": true,
+      "badge": "O que oferecemos",
+      "titulo": "Nossos Serviços",
+      "descricao": "Atendimento especializado para mulheres",
+      "itens": [
+        {
+          "titulo": "Terapia Individual",
+          "descricao": "Atendimento personalizado focado em suas necessidades, objetivos e momento de vida atual",
+          "topicos": [
+            "Ansiedade e estresse",
+            "Autoestima e autoconfiança",
+            "Relacionamentos",
+            "Transições de vida"
+          ]
+        },
+        {
+          "titulo": "Terapia Online",
+          "descricao": "Sessões por videochamada com a mesma qualidade do atendimento presencial, no conforto da sua casa",
+          "topicos": [
+            "Praticidade",
+            "Mesma eficácia",
+            "Horários flexíveis",
+            "Sigilo garantido"
+          ]
+        },
+        {
+          "titulo": "Abordagem Integrativa",
+          "descricao": "Combinação de técnicas da psicologia moderna para resultados mais profundos e duradouros",
+          "topicos": [
+            "TCC",
+            "Psicanálise",
+            "Gestalt",
+            "Mindfulness"
+          ]
+        }
+      ]
+    },
+    "sobre": {
+      "ativo": true,
+      "badge": "Conheça a Profissional",
+      "titulo": "Dra. Ana Carolina Silva",
+      "descricao": "Psicóloga formada pela Universidade de São Paulo (USP), com especialização em Psicologia Feminina e Terapia Cognitivo-Comportamental. Há mais de 8 anos acompanhando mulheres em seus processos de autoconhecimento e transformação.",
+      "imagem": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/7ff2c077-4183-46f0-b04e-d34d0198b237.jpg",
+      "destaques": [
+        "Formação em Psicologia pela USP",
+        "Especialização em Psicologia Feminina",
+        "Pós-graduação em Terapia Cognitivo-Comportamental",
+        "Mais de 8 anos de experiência clínica",
+        "Atendimento humanizado e acolhedor"
+      ]
+    },
+    "depoimentos": {
+      "ativo": true,
+      "badge": "Histórias de Transformação",
+      "titulo": "O que dizem nossas pacientes",
+      "itens": [
+        {
+          "nome": "Mariana S.",
+          "texto": "A terapia com a Dra. Ana mudou minha vida. Pela primeira vez me senti verdadeiramente ouvida e acolhida. Hoje me conheço melhor e vivo com mais leveza.",
+          "fotoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/f770a1f2-f2f0-4977-8c9a-013fc9a860de.jpg"
+        },
+        {
+          "nome": "Juliana P.",
+          "texto": "Encontrei na terapia um espaço seguro para trabalhar questões que carregava há anos. O atendimento é delicado, profundo e transformador.",
+          "fotoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/53d3f039-743a-4c6f-92e6-a05fa68ba555.jpg"
+        },
+        {
+          "nome": "Carolina M.",
+          "texto": "A abordagem feminina e acolhedora fez toda diferença. Me sinto mais confiante, mais eu mesma. Gratidão por esse processo!",
+          "fotoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/cf4c47c0-6c4e-4bfa-abea-29b00005a1c4.png"
+        },
+        {
+          "nome": "Daniell",
+          "texto": "Encontrei na terapia um espaço seguro para trabalhar minhas questões.",
+          "fotoUrl": "https://raw.githubusercontent.com/alexandrek79ub/template_psicologia_02/main/public/uploads/6275daa0-7a31-4249-b7e2-f65b20c121ae.jpg"
+        }
+      ]
+    },
+    "faq": {
+      "ativo": true,
+      "badge": "Dúvidas Frequentes",
+      "titulo": "Perguntas Frequentes",
+      "itens": [
+        {
+          "pergunta": "Como funciona a primeira sessão?",
+          "resposta": "A primeira sessão é um momento de acolhimento e conhecimento mútuo. Vamos conversar sobre o que te trouxe até aqui, suas expectativas e como posso te ajudar. É um espaço sem julgamentos para você se sentir à vontade."
+        },
+        {
+          "pergunta": "Qual a frequência ideal das sessões?",
+          "resposta": "Geralmente recomendo sessões semanais, mas a frequência pode ser ajustada de acordo com suas necessidades e disponibilidade. O importante é manter a constância para um processo terapêutico efetivo."
+        },
+        {
+          "pergunta": "Quanto tempo dura cada sessão?",
+          "resposta": "Cada sessão tem duração de 50 minutos, tempo adequado para um trabalho terapêutico profundo e acolhedor."
+        },
+        {
+          "pergunta": "Atende por convênio?",
+          "resposta": "Trabalho como profissional particular, mas forneço recibos que podem ser utilizados para reembolso em alguns convênios. Consulte seu plano de saúde."
+        },
+        {
+          "pergunta": "Como é o atendimento online?",
+          "resposta": "O atendimento online tem a mesma qualidade e eficácia do presencial. Utilizamos plataformas seguras com criptografia para garantir total sigilo e privacidade."
+        }
+      ]
+    },
+    "cta": {
+      "ativo": true,
+      "titulo": "Pronta para iniciar sua jornada de autoconhecimento?",
+      "descricao": "Agende sua primeira sessão e dê o primeiro passo em direção ao equilíbrio emocional e bem-estar",
+      "botaoTexto": "Agendar Sessão",
+      "botaoUrl": "https://wa.me/5511999995656"
+    },
+    "rodape": {
+      "descricaoMarca": "Psicologia Feminina com acolhimento, empatia e transformação genuína.",
+      "copyright": "© 2024 Dra. Ana Carolina Silva - Todos os direitos reservados",
+      "registroProfissional": "CRP 06/123456",
+      "links": [
+        {
+          "rotulo": "Início",
+          "url": "#hero"
+        },
+        {
+          "rotulo": "Benefícios",
+          "url": "#beneficios"
+        },
+        {
+          "rotulo": "Serviços",
+          "url": "#servicos"
+        },
+        {
+          "rotulo": "Sobre",
+          "url": "#sobre"
+        },
+        {
+          "rotulo": "Depoimentos",
+          "url": "#depoimentos"
+        }
+      ]
+    }
+  },
+  "configuracoes": {
+    "tema": {
+      "paletaId": "noite-elegante",
+      "corPrimaria": "#8b5cf6",
+      "corSecundaria": "#a78bfa",
+      "corFundo": "#0f0f23",
+      "corTexto": "#f1f5f9",
+      "modoEscuro": false
+    },
+    "funcionalidades": {
+      "blogAtivo": false,
+      "avisosAtivos": false
+    }
+  },
+  "phone": "",
+  "whatsapp": "",
+  "email": "",
+  "address": "",
+  "site": {
+    "contact": {
+      "phone": "",
+      "whatsapp": "",
+      "email": "",
+      "address": ""
+    },
+    "name": "",
+    "tagline": "",
+    "description": "",
+    "social": {
+      "instagram": "",
+      "facebook": ""
+    },
+    "theme": {
+      "mode": "auto",
+      "primary": "",
+      "secondary": "",
+      "accent": "",
+      "backgroundLight": "",
+      "backgroundDark": "",
+      "textLight": "",
+      "textDark": ""
+    },
+    "marketing": {
+      "trackingCode": ""
+    }
+  },
+  "branding": {
+    "logo": "",
+    "title": "",
+    "description": "",
+    "favicon": "",
+    "menu": []
+  },
+  "hero": {
+    "title": "",
+    "subtitle": "",
+    "buttonLabel": "",
+    "secondaryButtonLabel": "",
+    "cta": "",
+    "image": "",
+    "badge": ""
+  },
+  "benefits": [],
+  "services": [],
+  "testimonials": [],
+  "faq": [],
+  "professionalInfo": {
+    "license": "",
+    "experience": "",
+    "serviceTypes": "",
+    "extraNotes": ""
+  },
+  "pages": [],
+  "avisos": [],
+  "blog": [],
+  "footer": {
+    "copyright": "",
+    "links": []
+  },
+  "features": {
+    "blog": true,
+    "avisos": true
+  }
 }
